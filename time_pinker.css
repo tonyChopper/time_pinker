@@ -1,0 +1,74 @@
+.TP_container{
+  width:103px;
+  height:19px;
+  position:relative;
+}
+.TP_left_container,.TP_right_container{
+  float:left;  
+  height:18px
+}
+.TP_left_container{
+  border:1px solid #ccc;
+  width:85px;
+  }
+.TP_left_container input{
+  border:0px;
+}  
+.TP_right_container{
+  width:14px;
+  position:relative;
+
+}
+.TP_add,.TP_sub{
+  width:13px;
+  height:10px;
+  cursor:pointer;
+}
+.TP_add{
+  background:url("img.gif") no-repeat  -32px -16px;
+  position:absolute;
+}
+.TP_sub{
+  position:absolute;
+  top:10px;
+  left:0px;
+  background:url("img.gif") no-repeat  -48px -16px;
+}
+.TP_normal{
+  border:none;
+  text-align:center;
+  float:left;
+}
+.TP_value{
+  width:21px;
+}
+.TP_colon{
+  width:5px;
+}
+.TP_pinker{
+  position:absolute;
+  background:#fff;
+  border:1px solid #ccc;  
+  top:30px;
+  left:0px;
+  display:none;
+}
+.TP_hours_pinker{
+  height:90px;
+  width:123px;  
+}
+.TP_minutes_pinker{
+  height:48px;
+  width:128px;
+
+}
+.TP_seconds_pinker{
+  height:48px;
+  width:128px;
+  top:30px;
+  left:10px;
+}
+.TP_pinker td{
+  text-align:center;
+  cursor:pointer;
+}
